@@ -1,15 +1,9 @@
-      
+      <hr>
     </main> <!-- /container -->
 
-  <hr>
   <footer class="container">
-    <p>&copy; <?php date("Y"); ?> - Web Dev Academy</p>
+    <p>&copy; <?php date("Y"); ?> - Aula de PW</p>
   </footer>
-
-  <!--
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="<?php echo BASEURL; ?>js/jquery-1.11.2.min.js"><\/script>')</script>
-  -->
 
     <script src="<?php echo BASEURL; ?>js/bootstrap/bootstrap.min.js"></script>
     <script src="<?php echo BASEURL; ?>js/awesome/all.min.js"></script>
