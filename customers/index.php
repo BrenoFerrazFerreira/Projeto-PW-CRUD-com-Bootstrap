@@ -11,8 +11,8 @@
 			<h2>Clientes</h2>
 		</div>
 		<div class="col-sm-6 text-right h2">
-	    	<a class="btn btn-primary" href="add.php"><i class="fa fa-plus"></i> Novo Cliente</a>
-	    	<a class="btn btn-default" href="index.php"><i class="fa fa-refresh"></i> Atualizar</a>
+	    	<a class="btn btn-secondary" href="add.php"><i class="fa fa-user-plus"></i> Novo Cliente</a>
+	    	<a class="btn btn-light" href="index.php"><i class="fa fa-sync-alt"></i> Atualizar</a>
 	    </div>
 	</div>
 </header>
@@ -31,7 +31,7 @@
 <thead>
 	<tr>
 		<th>ID</th>
-		<th width="30%">Nome</th>
+		<th style="width:30%">Nome</th>
 		<th>CPF/CNPJ</th>
 		<th>Telefone</th>
 		<th>Atualizado em</th>
@@ -45,12 +45,12 @@
 		<td><?php echo $customer['id']; ?></td>
 		<td><?php echo $customer['name']; ?></td>
 		<td><?php echo $customer['cpf_cnpj']; ?></td>
-		<td>00 0000-0000</td>
+		<td><?php echo $customer['phone']; ?></td>
 		<td><?php echo $customer['modified']; ?></td>
 		<td class="actions text-right">
-			<a href="view.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-success"><i class="fa fa-eye"></i> Visualizar</a>
-			<a href="edit.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Editar</a>
-			<a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#delete-modal" data-customer="<?php echo $customer['id']; ?>">
+			<a href="view.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-light"><i class="fa fa-eye"></i> Visualizar</a>
+			<a href="edit.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-secondary"><i class="fas fa-user-edit"></i> Editar</a>
+			<a href="#" class="btn btn-sm btn-dark" data-toggle="modal" data-target="#delete-modal" data-customer="<?php echo $customer['id']; ?>">
 				<i class="fa fa-trash"></i> Excluir
 			</a>
 		</td>
