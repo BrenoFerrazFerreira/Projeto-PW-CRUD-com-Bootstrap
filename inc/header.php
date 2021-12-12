@@ -33,7 +33,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div style="margin-left:90px" class="container-fluid">
+    <div style="margin-left:95px" class="container-fluid">
       <a class="navbar-brand" href="<?php echo BASEURL; ?>"><i class="fas fa-home"></i> Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,7 +52,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fas fa-boxes"></i> Produtos</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="<?php echo BASEURL; ?>produtos"><i class="fas fa-boxes"></i> Gerenciar Produtos</a></li>
+              <li><a class="dropdown-item" href="<?php echo BASEURL; ?>produtos"><i class="fas fa-box"></i> Gerenciar Produtos</a></li>
               <li><a class="dropdown-item" href="<?php echo BASEURL; ?>produtos/add.php"><i class="fas fa-people-carry"></i> Novo Produto</a></li>
             </ul>
           </li>
