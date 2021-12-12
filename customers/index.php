@@ -44,8 +44,11 @@ index();
 				<tr>
 					<td><?php echo $customer['id']; ?></td>
 					<td><?php echo $customer['name']; ?></td>
-					<td><?php echo $customer['cpf_cnpj']; ?></td>
-					<td><?php echo $customer['phone']; ?></td>
+					<td><?php $tel = substr($customer['cpf_cnpj'], 0, 3) . "." . substr($customer['cpf_cnpj'], 3, 3) . "." . substr($customer['cpf_cnpj'], 6, 3) . "-" . substr($customer['cpf_cnpj'], 9, 2);
+      echo $tel; ?></td>
+					<td><?php
+      $tel = "(" . substr($customer['phone'], 0, 2) . ")" . substr($customer['phone'], 2, 5) . "-" . substr($customer['phone'], 7, 11);
+      echo $tel; ?></td>
 					<td><?php echo date_format (date_create ($customer['modified'], new DateTimeZone("America/Sao_Paulo")), "d/m/Y - H:i:s"); ?></td>
 					<td class="actions text-right">
 						<a href="view.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-light"><i class="fa fa-eye"></i> Visualizar</a>

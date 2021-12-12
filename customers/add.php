@@ -12,66 +12,66 @@ add();
   <hr />
   <div class="row">
     <div class="form-group col-md-7">
-      <label for="name">Nome / Razão Social</label>
+      <label for="name"><b>Nome / Razão Social</b></label>
       <input type="text" class="form-control" name="customer[name]">
     </div>
 
     <div class="form-group col-md-3">
-      <label for="campo2">CNPJ / CPF</label>
+      <label for="campo2"><b>CNPJ / CPF</b></label>
       <input type="text" class="form-control" name="customer[cpf_cnpj]">
     </div>
 
     <div class="form-group col-md-2">
-      <label for="campo3">Data de Nascimento</label>
+      <label for="campo3"><b>Data de Nascimento</b></label>
       <input type="date" class="form-control" name="customer[birthdate]">
     </div>
   </div>
 
   <div class="row">
     <div class="form-group col-md-5">
-      <label for="campo1">Endereço</label>
+      <label for="campo1"><b>Endereço</b></label>
       <input type="text" class="form-control" name="customer[address]">
     </div>
 
     <div class="form-group col-md-3">
-      <label for="campo2">Bairro</label>
+      <label for="campo2"><b>Bairro</b></label>
       <input type="text" class="form-control" name="customer[hood]">
     </div>
 
     <div class="form-group col-md-2">
-      <label for="campo3">CEP</label>
+      <label for="campo3"><b>CEP</b></label>
       <input type="text" class="form-control" name="customer[zip_code]">
     </div>
 
     <div class="form-group col-md-2">
-      <label for="campo3">Data de Cadastro</label>
+      <label for="campo3"><b>Data de Cadastro</b></label>
       <input type="date" class="form-control" name="customer[created]" disabled>
     </div>
   </div>
 
   <div class="row">
     <div class="form-group col-md-5">
-      <label for="campo1">Município</label>
+      <label for="campo1"><b>Município</b></label>
       <input type="text" class="form-control" name="customer[city]">
     </div>
 
     <div class="form-group col-md-2">
-      <label for="campo2">Telefone</label>
+      <label for="campo2"><b>Telefone</b></label>
       <input type="text" class="form-control" name="customer[phone]">
     </div>
 
     <div class="form-group col-md-2">
-      <label for="campo3">Celular</label>
+      <label for="campo3"><b>Celular</b></label>
       <input type="text" class="form-control" name="customer[mobile]">
     </div>
 
     <div class="form-group col-md-1">
-      <label for="campo3">UF</label>
+      <label for="campo3"><b>UF</b></label>
       <input type="text" class="form-control" name="customer[state]">
     </div>
 
     <div class="form-group col-md-2">
-      <label for="campo3">Inscrição Estadual</label>
+      <label for="campo3"><b>Inscrição Estadual</b></label>
       <input type="text" class="form-control" name="customer[ie]">
     </div>
 

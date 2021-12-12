@@ -17,7 +17,9 @@ view($_GET['id']);
   <dd><?php echo $customer['name']; ?></dd>
 
   <dt>CPF / CNPJ:</dt>
-  <dd><?php echo $customer['cpf_cnpj']; ?></dd>
+  <dd><?php
+      $tel = substr($customer['cpf_cnpj'], 0, 3) . "." . substr($customer['cpf_cnpj'], 3, 3) . "." . substr($customer['cpf_cnpj'], 6, 3) . "-" . substr($customer['cpf_cnpj'], 9, 2);
+      echo $tel; ?></dd>
 
   <dt>Data de Nascimento:</dt>
   <dd><?php echo FormataData($customer['birthdate'], "d/m/Y"); ?></dd>

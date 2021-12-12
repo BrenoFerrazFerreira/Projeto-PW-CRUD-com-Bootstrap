@@ -28,7 +28,7 @@ edit();
     
     <div class="form-group col-md-7" style="margin-top:10px">
       <label for="campo3"><b>Preço Unitário</b></label>
-      <input style="margin-top:10px" type="text" class="form-control" name="produto[precounit]" value="<?php echo $produto['quantidade']; ?>">
+      <input style="margin-top:10px" type="text" class="form-control" name="produto[precounit]" value="<?php echo $produto['precounit']; ?>">
     </div>
 
     <div id="actions" class="row">
